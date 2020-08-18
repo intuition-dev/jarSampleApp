@@ -24,6 +24,10 @@ repositories {
 }
 
 dependencies {
+	// temp
+	implementation fileTree(dir: 'tempLibs', include: ['*.jar'])
+
+
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:29.0-jre'
 

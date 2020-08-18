@@ -3,8 +3,13 @@
  */
 package jarSampleApp;
 
+import jarSampleLib.Library;
+
 public class App {
     public String getGreeting() {
+    	
+    	new Library().someLibraryMethod();
+    	
         return "Hello world.";
     }
 
