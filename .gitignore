@@ -6,5 +6,8 @@ build
 
 
 
-
+# eclipse
+.project
+.classpath
+.settings
 bin
